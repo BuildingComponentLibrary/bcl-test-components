@@ -1,0 +1,19 @@
+
+OS:Version,
+  {ffde22d0-9c44-4d30-a54f-eebc8ccb34b3}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:WeatherFile,
+  {ae4805f6-e3bc-4aa2-8e2e-221a1173b1fb}, ! Handle
+  SAN_DIEGO,                              ! City
+  CA,                                     ! State Province Region
+  USA,                                    ! Country
+  TMY2-23188,                             ! Data Source
+  722900,                                 ! WMO Number
+  32.73,                                  ! Latitude {deg}
+  -117.17,                                ! Longitude {deg}
+  -8,                                     ! Time Zone {hr}
+  9,                                      ! Elevation {m}
+  file:./USA_CA_San.Diego.722900_TMY2.epw, ! Url
+  5F160D24;                               ! Checksum
+

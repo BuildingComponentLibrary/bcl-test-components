@@ -1,0 +1,28 @@
+
+OS:Version,
+  {02218094-a934-435f-9610-57ab88ad3ddc}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:WeatherFile,
+  {132a32db-6ee3-40a4-9389-d6d3e1ddb85f}, ! Handle
+  Denver Intl Ap,                         ! City
+  CO,                                     ! State Province Region
+  USA,                                    ! Country
+  TMY3,                                   ! Data Source
+  725650,                                 ! WMO Number
+  39.83,                                  ! Latitude {deg}
+  -104.65,                                ! Longitude {deg}
+  -7,                                     ! Time Zone {hr}
+  1650,                                   ! Elevation {m}
+  file:./USA_CO_Denver.Intl.AP.725650_TMY3.epw, ! Url
+  ADF07FB0;                               ! Checksum
+
+OS:ComponentData,
+  {41df73bd-8b36-4526-b904-915484a14786}, ! Handle
+  Component Data 1,                       ! Name
+  {a8155118-8b24-4cd9-ac60-0ece952506b5}, ! UUID
+  {193d3988-d62d-41b8-81c5-dec5e8b60fc0}, ! Version UUID
+  1366306676,                             ! Creation Timestamp
+  1366306676,                             ! Version Timestamp
+  {132a32db-6ee3-40a4-9389-d6d3e1ddb85f}; ! Name of Object 1
+
